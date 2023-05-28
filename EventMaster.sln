@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMaster.Api", "EventMaster.Api\EventMaster.Api.csproj", "{09780AD3-0B3A-49F9-AAC1-C0F489F5BB92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMaster.Application", "EventMaster.Application\EventMaster.Application.csproj", "{1D2F57FF-AA46-4049-B5F3-79966C21154E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMaster.Contracts", "EventMaster.Contracts\EventMaster.Contracts.csproj", "{FC7B0DF1-AAA1-4B0B-BB49-C013174402B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMaster.Domain", "EventMaster.Domain\EventMaster.Domain.csproj", "{FC1C8515-8801-42F1-B3B6-13C8CA0BBEE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMaster.Infrastucture", "EventMaster.Infrastucture\EventMaster.Infrastucture.csproj", "{A321B2D1-31D5-4D88-A91E-82735EFACBF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09780AD3-0B3A-49F9-AAC1-C0F489F5BB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09780AD3-0B3A-49F9-AAC1-C0F489F5BB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09780AD3-0B3A-49F9-AAC1-C0F489F5BB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09780AD3-0B3A-49F9-AAC1-C0F489F5BB92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2F57FF-AA46-4049-B5F3-79966C21154E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2F57FF-AA46-4049-B5F3-79966C21154E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2F57FF-AA46-4049-B5F3-79966C21154E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2F57FF-AA46-4049-B5F3-79966C21154E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7B0DF1-AAA1-4B0B-BB49-C013174402B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7B0DF1-AAA1-4B0B-BB49-C013174402B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7B0DF1-AAA1-4B0B-BB49-C013174402B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7B0DF1-AAA1-4B0B-BB49-C013174402B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1C8515-8801-42F1-B3B6-13C8CA0BBEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1C8515-8801-42F1-B3B6-13C8CA0BBEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1C8515-8801-42F1-B3B6-13C8CA0BBEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1C8515-8801-42F1-B3B6-13C8CA0BBEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A321B2D1-31D5-4D88-A91E-82735EFACBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A321B2D1-31D5-4D88-A91E-82735EFACBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A321B2D1-31D5-4D88-A91E-82735EFACBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A321B2D1-31D5-4D88-A91E-82735EFACBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

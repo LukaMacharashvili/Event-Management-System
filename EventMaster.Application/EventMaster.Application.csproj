@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\EventMaster.Domain\EventMaster.Domain.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.1"/>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2"/>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0"/>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0-preview.2.23128.3"/>
+    <PackageReference Include="MediatR" Version="11.1.0"/>
+    <PackageReference Include="AWSSDK.Core" Version="3.7.106.9"/>
+    <PackageReference Include="AWSSDK.CognitoIdentityProvider" Version="3.7.101.102"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
